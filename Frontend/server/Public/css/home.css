@@ -15319,7 +15319,7 @@ header a.nav-link:first-letter {
   --banner-bg-top-position: -3rem;
 }
 .main-banner.hero-banner:before {
-  background-image: url(../images/hero-slider-cfd-mobile.webp);
+  background-image: url(../images/hero-slider-cfd.png);
   background-position: 60% 40%;
   background-size: cover;
   right: 0;
@@ -15328,7 +15328,7 @@ header a.nav-link:first-letter {
 .edge .main-banner.hero-banner:before,
 .ff-old .main-banner.hero-banner:before,
 .safari .main-banner.hero-banner:before {
-  background-image: url(../images/hero-slider-cfd-mobile.png);
+  background-image: url(../images/hero-slider-cfd.png);
   
 }
 @media (min-width: 768px) {
