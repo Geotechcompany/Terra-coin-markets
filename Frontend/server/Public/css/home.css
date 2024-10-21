@@ -20736,19 +20736,19 @@ header a.nav-link:first-letter {
 }
 .services-list li {
   position: relative;
-  padding-left: 15px;
+  padding-left: 20px;
   margin-bottom: 8px;
-  display: grid;
-  justify-content: start;
+  display: flex;
+  align-items: center;
 }
-
-
 
 .services-list li::before {
   content: "•";
   position: absolute;
   left: 0;
   color: #ffd700; /* Gold color for the bullet points */
+  font-size: 1.2em; /* Adjust size as needed */
+  line-height: 1;
 }
 .blue-card-content {
   padding: 20px;
