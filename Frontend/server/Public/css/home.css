@@ -20734,12 +20734,15 @@ header a.nav-link:first-letter {
   padding-left: 20px;
   margin-top: 10px;
 }
-
 .services-list li {
   position: relative;
   padding-left: 15px;
   margin-bottom: 8px;
+  display: grid;
+  justify-content: start;
 }
+
+
 
 .services-list li::before {
   content: "•";
