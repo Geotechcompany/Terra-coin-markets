@@ -20736,7 +20736,7 @@ header a.nav-link:first-letter {
 }
 .services-list li {
   position: relative;
-  padding-left: 50px;
+  padding-left: 60px;
   margin-bottom: 8px;
   display: flex;
   align-items: center;
@@ -20745,7 +20745,7 @@ header a.nav-link:first-letter {
 .services-list li::before {
   content: "•";
   position: absolute;
-  padding-left: 35px;
+  padding-left: 40px;
 
   left: 0;
   color: #ffd700; /* Gold color for the bullet points */
