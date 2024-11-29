@@ -20731,12 +20731,13 @@ header a.nav-link:first-letter {
 }
 .services-list {
   list-style-type: none;
-  padding-left: 20px;
+  padding-left: 40px;
   margin-top: 10px;
+  margin-right: 40px;
 }
 .services-list li {
   position: relative;
-  padding-left: 60px;
+  padding-left: 100px; /* Reduced from original 80px */
   margin-bottom: 8px;
   display: flex;
   align-items: center;
@@ -20745,7 +20746,7 @@ header a.nav-link:first-letter {
 .services-list li::before {
   content: "•";
   position: absolute;
-  padding-left: 40px;
+  padding-left: 70px; /* Reduced from original 40px */
 
   left: 0;
   color: #ffd700; /* Gold color for the bullet points */
